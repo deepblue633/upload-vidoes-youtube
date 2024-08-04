@@ -1,0 +1,21 @@
+{
+    "name": "youtube-api/upload",
+    "description": "this is to upload videos on youtube using api",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^7.9",
+        "symfony/http-client": "^7.1"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "YoutubeApi\\Upload\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "atwa"
+        }
+    ],
+    "minimum-stability": "stable"
+}
