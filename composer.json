@@ -4,7 +4,8 @@
     "type": "library",
     "require": {
         "guzzlehttp/guzzle": "^7.9",
-        "symfony/http-client": "^7.1"
+        "symfony/http-client": "^7.1",
+         "deepblue633/upload-videos-youtube": "1"
     },
     "license": "MIT",
     "autoload": {
