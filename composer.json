@@ -1,22 +1,28 @@
 {
-    "name": "youtube-api/upload",
-    "description": "this is to upload videos on youtube using api",
+    "name": "atwa/youtube-upload", 
+    "description": "Upload videos to YouTube using the API (v3).",
     "type": "library",
     "require": {
+        "php": "^8.1",
         "guzzlehttp/guzzle": "^7.9",
-        "symfony/http-client": "^7.1",
-         "deepblue633/upload-videos-youtube": "1.0"
+        "google/apiclient": "^2.12" 
     },
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "YoutubeApi\\Upload\\": "src/"
+            "Atwa\\YoutubeUpload\\": "src/" 
         }
     },
     "authors": [
         {
-            "name": "atwa"
+            "name": "atwa",
+            "email": "your@email.com" 
         }
     ],
-    "minimum-stability": "stable"
+    "minimum-stability": "stable", 
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "vimeo/psalm": "^5.20",
+        "squizlabs/php_codesniffer": "^3.7"
+    }
 }
